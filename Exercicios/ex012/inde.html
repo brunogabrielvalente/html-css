@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="bandeira.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos com HTML5</title>
+</head>
+
+
+
+
+
+<style>
+  body {
+    background: rgb(214, 214, 214);
+    color: rgb(0, 0, 0);
+  }
+
+  a {
+    text-decoration: none;
+    margin: 150px;
+  }
+
+  .hr1 {
+    border-top: 5px solid rgb(171, 19, 19);
+  }
+
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+  }
+
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+</style>
+
+
+
+
+
+
+
+
+<body>
+  <button id="botao-cor">Modo Escuro</button>
+
+  <script>
+    const botao = document.getElementById('botao-cor');
+    const corpo = document.body;
+
+    botao.addEventListener('click', () => {
+      corpo.classList.toggle('dark-mode');
+
+      if (corpo.classList.contains('dark-mode')) {
+        botao.textContent = 'Modo Claro';
+      } else {
+        botao.textContent = 'Modo Escuro';
+      }
+    });
+  </script>
+
+
+
+  <h1>Iserindo vídeos hospedados localmente</h1>
+  <h3>&darr; Este tipo de video consome muita banda de internet &darr;</h3>
+  <p>Este vídeo esta hospedado no meu próprio servidor</p>
+
+  <video width="560px" height="315" controls loop poster="imagens/cursoemvideo-logo.png">
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/Meu-Video.webm" type="video/webm">
+    <p>Seu navegador nao tem compatibilidade com reprodução de video</p>
+  </video>
+
+  <hr class="hr1">
+
+  <h1>&rAarr;<a href="index2.html">Comparação</a>&lAarr;</h1>
+
+  <h1 class="h101">Inserindo vídeo do Youtube </h1>
+  <h3>&darr; Este tipo de video nao consome a minha banda de internet, Porém não da muita liberdade para o cliente escolher &darr; </h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=j7aMxpO0omzvJrXy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <hr>
+  <h1>Este video é o Vimeo</h1>
+  <h3>Esse tipo de vídeo vem de um site externo e não consome a minha banda de internet.
+    O melhor é que ele oferece mais opções de personalização — por exemplo, dá para deixar o vídeo privado e, ao pausar, não aparecem outros vídeos sugeridos e disponibiliza a auteção de cores. </h3>
+
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/132172865?h=fadb33602e" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+  <br>
+
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/96000990?h=f311e9b10d" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+
+</body>
+
+</html>

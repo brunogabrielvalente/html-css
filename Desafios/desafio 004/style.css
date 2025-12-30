@@ -1,0 +1,136 @@
+@font-face {
+    font-family: idroid;
+    src: url(../fontes/idroid.otf) format('opentype');
+  }
+
+  body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px;
+    }
+
+
+  /*===== HEADER ===== */
+
+  header {
+    text-align: center;
+    background-image:linear-gradient(to top,rgb(1, 54, 1),rgb(6, 140, 6));
+  }
+  header>nav{
+    text-align: justify;
+    padding:10px;
+    padding-left: 15px;
+  }  
+
+  nav>a{
+    color: rgb(0, 255, 17);
+    font-size:17px;
+    font-weight:550;
+  padding: 10px;
+  text-decoration: none;
+  }
+
+
+ h1{
+  color: white;
+  margin: 0px;
+  padding-top:20px;
+ }
+
+ header>h2{
+  color: rgba(255, 255, 255, 0.853);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 30px;
+ }
+
+nav>a:hover{
+  background:rgb(48, 174, 53);
+  border-radius: 10px;
+  transition: 1s linear;
+  color:rgb(1, 90, 1);
+}
+
+/*===== HEADER ===== */
+ 
+  main {
+    min-width: 400px;
+    max-width: 800px;
+    background: white;
+    margin:0 auto;
+    padding:10px;
+    border-radius: 0px 0px 10px 10px;
+    text-indent:40px ;
+    text-align: justify;
+  }
+  
+
+  .principal{
+    padding: 10px;
+    text-indent: 0px;
+font-size:25px;
+color: rgb(3, 68, 3);
+  }
+
+span{
+  color: rgb(9, 73, 9);
+  font-weight: bold;
+  border-radius: 4px;
+  padding:0px 5px;
+}
+
+
+  h2 {
+   margin:0px; 
+   font-family: idroid;
+   font-size:20px;
+   color:rgb(21, 101, 21);
+  }
+
+.subtitulo{
+  background-image:linear-gradient(to left,rgb(251, 251, 251),rgb(125, 250, 163));
+  margin: 5px;
+    text-indent: 0px;
+}
+
+.links{
+  background: rgb(152, 224, 152);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(2, 70, 2);
+  border-radius: 5px;
+  padding:0px 5px;
+}
+
+.links:hover{
+  text-decoration: underline;
+}
+
+
+svg{
+  height: 15px;
+  width:14px;
+  transform: rotate(130deg);
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+iframe{
+ display: block;
+  margin: 0 auto;
+   position: relative;
+   width: 100%;
+}
+
+
+aside{
+  background: rgb(47, 94, 47);
+  padding:25px;
+}
+
+article{
+  /* text-indent:20px ; */
+}
