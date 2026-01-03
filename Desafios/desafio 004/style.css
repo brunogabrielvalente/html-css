@@ -1,4 +1,10 @@
 
+@font-face {
+  font-family:'idroid';
+  src: url('fontes/idroid.otf ') format('opentype');
+}
+
+
 
   body {
     background-color: bisque;
@@ -20,9 +26,9 @@
   }  
 
   nav>a{
-    color: rgb(0, 255, 17);
-    font-size:17px;
-    font-weight:550;
+  color: rgb(0, 255, 17);
+  font-size:17px;
+  font-weight:550;
   padding: 10px;
   text-decoration: none;
   }
@@ -32,7 +38,7 @@
   color: white;
   margin: 0px;
   padding-top:20px;
- }
+  } 
 
  header>h2{
   color: rgba(255, 255, 255, 0.853);
@@ -50,20 +56,34 @@ nav>a:hover{
 
 /*===== HEADER ===== */
  
+
+
+
+
+
   main {
     min-width: 400px;
     max-width: 800px;
     background: white;
     margin:0 auto;
-    padding:15px;
     border-radius: 0px 0px 10px 10px;
     text-indent:40px ;
     text-align: justify;
   }
   
+
+
+
+
 article{
   padding: 10px;
+  padding:0px 30px;
 }
+
+
+
+
+
 
   .principal{
     padding: 10px;
@@ -71,6 +91,11 @@ article{
 font-size:25px;
 color: rgb(3, 68, 3);
   }
+
+
+
+
+
 
 span{
   color: rgb(9, 73, 9);
@@ -80,18 +105,30 @@ span{
 }
 
 
+
+
+
   h2 {
-   margin:0px; 
-   font-family: idroi,sans-serif;
+   margin-left:10px; 
+   font-family:'idroid',sans-serif;
    font-size:20px;
    color:rgb(21, 101, 21);
   }
+
+
+
+
+
 
 .subtitulo{
   background-image:linear-gradient(to left,rgb(251, 251, 251),rgb(125, 250, 163));
   margin: 5px;
     text-indent: 0px;
 }
+
+
+
+
 
 .links{
   background: rgb(152, 224, 152);
@@ -102,50 +139,91 @@ span{
   padding:0px 5px;
 }
 
+
+
+
+
 .links:hover{
   text-decoration: underline;
 }
+
+
+
+
 
 
 svg{
   height: 15px;
   width:14px;
   transform: rotate(130deg);
-}
+  }
+
+
+
+
 
 img{
   display: block;
   margin: 0 auto;
-  padding: px;
+  width: 100%;
+  }
 
+.boneco{
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;  
 }
+
+
+
+
 
 iframe{
  display: block;
-  margin: 0 auto;
-   position: relative;
-   width: 100%;
-  }
+ margin: 0 auto;
+ position: relative;
+ width: 100%;
+}
+
+
+
+
+
+
 
 
  aside{ 
   background: rgb(47, 94, 47);
   padding:25px;
-  margin: 0;
+  margin: 0px;
 }
+
+
+
+
+
+
+
 
 div>h3{
   font-size :16px;
   font-weight: normal ;
   background-color: rgb(123, 143, 123);
   color: white;
-  border-radius:5px 5px 0px 0px  ;
+  border-radius:5px 5px 0px 0px;
   padding: 8px;
-  
+  margin: 25px;
 }
 
 
-  footer{
+
+
+
+
+
+
+
+footer{
     background-color: rgb(47, 94, 47);
     color: white;
     text-align: center;
