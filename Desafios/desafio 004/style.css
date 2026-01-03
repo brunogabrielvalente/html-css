@@ -1,7 +1,4 @@
-@font-face {
-    font-family: idroid;
-    src: url(fontes/idroid.otf) format('opentype'); 
-  }
+
 
   body {
     background-color: bisque;
@@ -58,12 +55,15 @@ nav>a:hover{
     max-width: 800px;
     background: white;
     margin:0 auto;
-    padding:10px;
+    padding:15px;
     border-radius: 0px 0px 10px 10px;
     text-indent:40px ;
     text-align: justify;
   }
   
+article{
+  padding: 10px;
+}
 
   .principal{
     padding: 10px;
@@ -82,7 +82,7 @@ span{
 
   h2 {
    margin:0px; 
-   font-family: idroi;
+   font-family: idroi,sans-serif;
    font-size:20px;
    color:rgb(21, 101, 21);
   }
@@ -116,6 +116,8 @@ svg{
 img{
   display: block;
   margin: 0 auto;
+  padding: px;
+
 }
 
 iframe{
@@ -123,14 +125,29 @@ iframe{
   margin: 0 auto;
    position: relative;
    width: 100%;
-}
+  }
 
 
-aside{
+ aside{ 
   background: rgb(47, 94, 47);
   padding:25px;
+  margin: 0;
 }
 
-article{
-  /* text-indent:20px ; */
+div>h3{
+  font-size :16px;
+  font-weight: normal ;
+  background-color: rgb(123, 143, 123);
+  color: white;
+  border-radius:5px 5px 0px 0px  ;
+  padding: 8px;
+  
 }
+
+
+  footer{
+    background-color: rgb(47, 94, 47);
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
