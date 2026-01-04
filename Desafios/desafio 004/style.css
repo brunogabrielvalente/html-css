@@ -11,6 +11,7 @@
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif; 
     margin: 0px;
+    
     }
 
     
@@ -29,8 +30,6 @@
   }  
 
 
-
-
   nav>a{
   color: rgb(0, 255, 17);
   font-size:17px;
@@ -41,14 +40,11 @@
 
 
 
-
-
  h1{
   color: white;
   margin: 0px;
   padding-top:20px;
   } 
-
 
 
 
@@ -62,125 +58,112 @@
 
 
 
-
-
-
-
 nav>a:hover{
   background:rgb(48, 174, 53);
   border-radius: 10px;
   transition: 1s linear;
   color:rgb(1, 90, 1);
 }
+
+
 /*===== HEADER ===== */
 
 
 
-
-
-
-
-
-
-
+/* 
   main {
     min-width: 400px;
     max-width: 800px;
-    background: white;
+    background: rgb(255, 255, 255);
     margin:0 auto;
     border-radius: 0px 0px 10px 10px;
     text-indent:40px ;
     text-align: justify;
-  }
-  
+    padding-left:20px;
+    padding-right:20px ;
+    } */
+    
+    
+    
+    main{
+      background: white;
+      margin: 0 auto;
+      max-width: 700px;
+      min-width: 400px;
+      /* padding: 0px 20px; */
+    }
+    
+
+
+
+    .principal{
+     font-size:30px; 
+     padding: 30px 20px 0px 20px;
+      
+    }
+    
+
+
+
+
+    article{
+      margin:0px;
+      padding: 0px 20px;;
+    }
+    
 
 
 
 
 
+    h2{
+      font-family: 'idroid', sans-serif;
+      color: rgb(12, 102, 12);
+      margin-top: 0px;
+      padding-left: 0px;
+    }
+    
+    
 
 
-
-
-article{
-  padding: 10px;
-  padding:0px 30px;
+p{
+  text-indent: 20px;
+  font-weight: normal;
 }
-
-
-
-
-
-
-
-
-
-
-  .principal{
-    padding: 10px;
-    text-indent: 0px;
-font-size:25px;
-color: rgb(3, 68, 3);
-  }
-
-
-
-
-
-
-
-
-span{
-  color: rgb(9, 73, 9);
-  font-weight: bold;
-  border-radius: 4px;
-  padding:0px 5px;
-}
-
-
-
-
-
-
-
-
-  h2 {
-   margin-left:10px; 
-   font-family:'idroid',sans-serif;
-   font-size:20px;
-   color:rgb(21, 101, 21);
-  }
-
-
-
-
 
 
 
 
 
 .subtitulo{
-  background-image:linear-gradient(to left,rgb(251, 251, 251),rgb(125, 250, 163));
-  margin: 5px;
-    text-indent: 0px;
+ margin-left: 0px;
+ background-image:linear-gradient(to left,rgb(251, 251, 251),rgb(125, 250, 163));
+ text-indent: 0px;
+ font-size: 20px;
+ padding-left: 10px;
 }
 
 
 
 
+span{
+  color: rgb(4, 82, 4);
+  font-weight: bold;
+}
 
 
 
 
 
 .links{
-  background: rgb(152, 224, 152);
+  
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
   color: rgb(2, 70, 2);
   border-radius: 5px;
   padding:0px 5px;
 }
+
 
 
 
@@ -197,6 +180,8 @@ span{
 
 
 
+
+
 svg{
   height: 15px;
   width:14px;
@@ -205,44 +190,38 @@ svg{
 
 
 
+  
+
+
+
 
 
 img{
   display: block;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   }
 
-.boneco{
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;  
-}
 
 
 
 
 
+
+ 
+/* video */
 iframe{
  display: block;
  margin: 0 auto;
  position: relative;
  width: 100%;
 }
-
-
-
-
-
-
-
-
  aside{ 
   background: rgb(47, 94, 47);
-  padding:25px;
+  padding:40px;
   margin: 0px;
 }
-
+/* video */
 
 
 
@@ -260,17 +239,23 @@ div>h3{
   margin: 25px;
 }
 
+div{
+  display: block;
+ /* margin: 25px; */
+}
 
 
 
 
-
+.baixo{
+  color:rgb(255, 255, 255)
+}
 
 
 
 footer{
     background-color: rgb(47, 94, 47);
-    color: white;
+    color: rgb(155, 194, 155);
     text-align: center;
     padding: 5px;
   }
