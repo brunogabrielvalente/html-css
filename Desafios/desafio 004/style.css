@@ -72,18 +72,7 @@ nav>a:hover{
 
 
 
-/* 
-  main {
-    min-width: 400px;
-    max-width: 800px;
-    background: rgb(255, 255, 255);
-    margin:0 auto;
-    border-radius: 0px 0px 10px 10px;
-    text-indent:40px ;
-    text-align: justify;
-    padding-left:20px;
-    padding-right:20px ;
-    } */
+
     
     
     
@@ -92,7 +81,6 @@ main{
   margin: 0 auto;
   max-width: 700px;
   min-width: 400px;
-  /* padding: 0px 20px; */
 }
     
 
@@ -139,7 +127,6 @@ p{
 .subtitulo{
  margin-left: 0px;
  background-image:linear-gradient(to left,rgb(251, 251, 251),rgb(125, 250, 163));
- text-indent: 0px;
  font-size: 20px;
  padding-left: 10px;
 }
@@ -208,6 +195,7 @@ img{
 
  
 /* video */
+
 iframe{
   display: block;
   margin: 0 auto;
@@ -217,11 +205,9 @@ iframe{
 
 
 article{
-background: rgb(47, 94, 47);
-padding:40px;
-    
-    }
-
+  background: rgb(47, 94, 47);
+  padding:40px;
+}
 
 /* video */
 
@@ -233,17 +219,21 @@ padding:40px;
 
 div>h3{
   font-size :16px;
-  font-weight: normal ;
-  background-color: rgb(123, 143, 123);
+  background-color: rgb(37, 105, 37);
   color: white;
-  border-radius:5px 5px 0px 0px;
+
   padding: 8px;
-  margin: 25px;
-}
+ }
+
+ h3{
+  margin: 0px;
+ }
 
 div{
   display: block;
- /* margin: 25px; */
+  margin: 25px;
+  border: 2px solid rgb(81, 107, 81);
+  border-radius:5px;
 }
 
 
