@@ -213,7 +213,7 @@ iframe{
 
 article{
   background: rgb(47, 94, 47);
-  padding:40px;
+  padding:20px 40px;
 }
 
 /* video */
@@ -243,15 +243,17 @@ div>h3{
   margin:20px;
   border: 2px solid rgb(81, 107, 81);
   border-radius:5px;
-  box-shadow: 5px 5px 5px rgb(150, 150, 150);
+  box-shadow: 5px 5px 5px  rgb(150, 150, 150);
   background-color: rgb(200, 230, 200);
 }
+
 
 
 div>p{
   padding: 10px;  
   margin: 0px;
 }
+
 
 
 .lista{
