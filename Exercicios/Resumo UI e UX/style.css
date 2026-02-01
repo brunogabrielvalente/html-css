@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #222;
+  text-align: center;
+  margin: 40px;
+}
+
+h1 {
+  color: #faf9f9;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.ux {
+  border-top: 5px solid #ff9800;
+}
+
+.ui {
+  border-top: 5px solid #2196f3;
+}
+
+.front {
+  border-top: 5px solid #4caf50;
+}
+
+.back {
+  border-top: 5px solid #9c27b0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #9e9e9ebe;
+}
+
+footer:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}

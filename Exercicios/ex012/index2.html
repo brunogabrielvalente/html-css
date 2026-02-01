@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="bandeira.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="index2.html">
+  <title>YouTube vs Vimeo</title>
+  <style>
+    :root {
+      --bg: #0f1724;
+      /* dark bg */
+      --card: #0b1220;
+      --accent: #3b82f6;
+      --muted: #94a3b8;
+      --glass: rgba(255, 255, 255, 0.03);
+      --radius: 12px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px;
+      background: linear-gradient(180deg, #081023 0%, #07101b 100%);
+      color: #e6eef8;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+    }
+
+    header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 20px
+    }
+
+    a {
+      text-decoration: none;
+      color: #e6eef8;
+    }
+
+    .logo {
+      width: 63px;
+      height: 63px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), #0ea5a4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 20px
+    }
+
+    p.lead {
+      margin: 6px 0 0;
+      color: var(--muted)
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: 0 6px 20px rgba(2, 6, 23, 0.6);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 18px
+    }
+
+    .col {
+      background: var(--glass);
+      padding: 14px;
+      border-radius: 10px
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 16px
+    }
+
+    ul {
+      margin: 0 0 10px 18px
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px
+    }
+
+    th,
+    td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04)
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px
+    }
+
+    @media (max-width:720px) {
+      .grid {
+        grid-template-columns: 1fr
+      }
+
+      body {
+        padding: 18px
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo"><a href="inde.html">YT⇄VM<a /></div>
+      <div>
+        <h1>YouTube vs Vimeo — Comparação</h1>
+        <p class="lead">Resumo prático sobre quando usar cada serviço e as diferenças mais importantes.</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <section>
+        <h2>Origem e foco</h2>
+        <div class="grid">
+          <div class="col">
+            <h3>YouTube</h3>
+            <p class="badge">Gratuito • Alcance</p>
+            <ul>
+              <li>Plataforma massiva, voltada para divulgação pública.</li>
+              <li>Ideal para alcance, viralidade e monetização.</li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Vimeo</h3>
+            <p class="badge">Profissional • Controle</p>
+            <ul>
+              <li>Focado em portfólios, apresentações e uso profissional.</li>
+              <li>Mais controle sobre aparência e privacidade do player.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:14px">
+        <div class="grid">
+          <div class="col">
+            <h2>Consumo de internet</h2>
+            <p>O YouTube costuma carregar scripts extras (anúncios, recomendações), o que pode aumentar uso de banda. O Vimeo entrega players mais limpos sem anúncios.</p>
+          </div>
+
+          <div class="col">
+            <h2>Personalização</h2>
+            <p>Vimeo permite customizar cores, ocultar controles e desativar vídeos relacionados. YouTube tem limitações no player padrão.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:14px">
+        <div class="grid">
+          <div class="col">
+            <h2>Privacidade</h2>
+            <p>YouTube: opções público, não listado ou privado (acessível por link). Vimeo: controles avançados (senha, domínio restrito, incorporação controlada).</p>
+          </div>
+
+          <div class="col">
+            <h2>Custos</h2>
+            <p>YouTube é gratuito. Vimeo tem planos gratuitos limitados e planos pagos com mais armazenamento e recursos de privacidade.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:16px">
+        <h2>Quando usar cada um</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Contexto</th>
+              <th>Melhor opção</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alcance máximo e público geral</td>
+              <td>YouTube</td>
+            </tr>
+            <tr>
+              <td>Portfólio, apresentações e sites sem anúncios</td>
+              <td>Vimeo</td>
+            </tr>
+            <tr>
+              <td>Necessidade de controle sobre quem vê</td>
+              <td>Vimeo</td>
+            </tr>
+            <tr>
+              <td>Monetização por views e algoritmo de recomendação</td>
+              <td>YouTube</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer>
+        <strong>Resumo:</strong> YouTube = visibilidade e engajamento. Vimeo = controle, aparência e privacidade.
+      </footer>
+    </div>
+
+  </div>
+</body>
+
+</html>
